@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-¨¨¨
+"""
 Escriba un programa que pida un entero positivo al usuario y lo aproxime a la decena más cercana.
 
 Ejemplos:
@@ -14,7 +14,7 @@ Ejemplos:
 30001 --> 30000
 99999 --> 100000
 
-¨¨¨
+"""
 
 numeroEntero = int(raw_input("Ingrese numero a redondear: "))
 while numeroEntero % 10 != 0:
